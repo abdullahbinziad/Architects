@@ -51,7 +51,7 @@ nav ul li a {
   font-size: 16px;
   line-height: 26px;
   color: #727272;
-  padding-top: 30px;
+  padding: 30px 250px;
 }
 .primary-btn {
   background-color: #ff900e;
@@ -293,6 +293,10 @@ footer {
   .hero {
     margin-top: 60px;
   }
+  .hero p{
+  text-align: center;
+  padding: 5px;
+  }
   .hero h1 {
     font-size: 30px;
     line-height: 40px;
@@ -304,11 +308,18 @@ footer {
   .main-info {
     text-align: center;
   }
-  .main-info h1,
-  p {
+  .main-info h1 {
     text-align: left;
-    font-size: 12px;
+    font-size: 30px;
     
+  }
+  .main-info p {
+    text-align: left;
+  margin-top: 15px;
+    
+  }
+  .single-box p{
+    font-size: 13px;
   }
   .features {
     flex-direction: column;
@@ -353,6 +364,9 @@ footer {
   }
   .sponser-logo img {
     width: 100px;
+  }
+  .sponser-logo h1 {
+    font-size: 35px;
   }
   .sponser p {
     text-align: center;
