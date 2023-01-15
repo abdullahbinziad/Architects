@@ -90,6 +90,7 @@ nav ul li a {
 }
 .main-info h1 {
   font-size: 45px;
+  
 }
 .main-info p {
   font-weight: 400;
@@ -129,6 +130,12 @@ nav ul li a {
   padding: 20px;
   margin-bottom: 12px;
   width: 85%;
+}
+.single-box h1{
+ margin-bottom: 8px;
+}
+.single-box p{
+color: #727272;
 }
 
 .feature-image {
@@ -174,6 +181,14 @@ nav ul li a {
   display: flex;
   gap: 55px;
   justify-content: space-between;
+}
+.single-facts:hover{
+  background-color: #46b2f8;
+  color: white;
+ transform: rotateZ(6deg);
+ transition: 200ms;
+
+ 
 }
 .single-facts {
   border: 1px solid #ff900e;
@@ -264,6 +279,9 @@ footer {
   .main-section {
     flex-direction: column;
   }
+  nav ul{
+    gap: 35px;
+  }
   .hero {
     margin-top: 60px;
   }
@@ -281,6 +299,8 @@ footer {
   .main-info h1,
   p {
     text-align: left;
+    font-size: 12px;
+    
   }
   .features {
     flex-direction: column;
@@ -302,6 +322,9 @@ footer {
   }
   .status {
     width: 100%;
+  }
+  .status p{
+   text-align: center;
   }
   .facts {
     flex-direction: column;
