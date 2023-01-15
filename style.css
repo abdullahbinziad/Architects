@@ -176,16 +176,16 @@ nav ul li a {
   justify-content: space-between;
 }
 .single-facts {
-    border: 1px solid #ff900e;
-    border-radius: 8px;
-    padding: 25px;
-    flex: 1;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 25px;
+  flex: 1;
 }
 .single-facts h1 {
-    font-style: normal;
-font-weight: 700;
-font-size: 45px;
-margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 15px;
 }
 .single-facts h3 {
 }
@@ -196,30 +196,113 @@ margin-bottom: 15px;
   margin-top: 100px;
 }
 .sponser h1 {
-    margin-bottom: 15px;
-    font-style: normal;
-font-weight: 700;
-font-size: 45px;
-
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
 }
 .sponser p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .sponser-logo {
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    filter: grayscale(100%);
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  filter: grayscale(100%);
 }
 .sponser-logo img {
 }
 footer {
-    text-align: center;
-    background-color: #FFF4E7;
-    padding: 20px 200px;
-    margin-bottom: 50px;
+  text-align: center;
+  background-color: #fff4e7;
+  padding: 20px 200px;
+  margin-bottom: 50px;
 }
-footer p {
 
+/* Responsive breakpoint */
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .main-header {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .main-section {
+    flex-direction: column;
+  }
+  .hero{
+    margin-top: 60px;
+  }
+  .hero h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .main-info {
+    text-align: center;
+  }
+  .main-info h1,
+  p {
+    text-align: left;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .feature-info {
+    width: 100%;
+    padding: 6px;
+  }
+  .feature-heading h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .feature-image {
+    width: 100%;
+  }
+  .box-under-feature {
+    bottom: -35px;
+    left: 100px;
+  }
+  .status{
+    width: 100%;
+
+  }
+  .facts{
+    flex-direction: column;
+    gap: 20px;
+   
+  }
+  .single-facts h1{
+    margin-bottom: 0px;
+  }
+  .sponser{
+    margin-top: 0px;
+  }
+  .sponser-logo{
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-top: 30px;
+  }
+  .sponser-logo img{
+    width: 100px;
+    
+  }
+  .sponser p{
+   text-align: center;
+    
+  }
+  .footer{
+    padding: 17px;
+  }
+  .footer p{
+    text-align: center;
+  }
 }
