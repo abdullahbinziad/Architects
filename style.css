@@ -222,7 +222,15 @@ color: #727272;
   display: flex;
   justify-content: space-between;
   gap: 10px;
+ 
+}
+.sponser-logo img {
+
   filter: grayscale(100%);
+}
+.sponser-logo img:hover {
+
+  filter: none
 }
 /* mail-subscribe */
 .mail-subscribe {
@@ -310,7 +318,7 @@ footer {
     padding: 6px;
   }
   .feature-heading h1 {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
   }
   .feature-image {
