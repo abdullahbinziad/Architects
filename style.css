@@ -187,13 +187,11 @@ nav ul li a {
   font-size: 45px;
   margin-bottom: 15px;
 }
-.single-facts h3 {
-}
 
 /* sponser section starts */
 .sponser {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .sponser h1 {
   margin-bottom: 15px;
@@ -211,8 +209,41 @@ nav ul li a {
   gap: 10px;
   filter: grayscale(100%);
 }
-.sponser-logo img {
+/* mail-subscribe */
+.mail-subscribe {
+  background-color: #296f89;
+  text-align: center;
+  padding: 55px 80px;
 }
+.mail-subscribe h1 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 36px;
+}
+.subscribe-asset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-asset input {
+  width: 249px;
+  height: 36px;
+  padding: 10px;
+  font-size: 18px;
+}
+.subscribe-asset button {
+  padding: 19px 24px;
+  background-color: #46b2f8;
+  color: white;
+  font-size: 18px;
+  margin-left: -3px;
+  border: none;
+  border-right: 2px solid white;
+  cursor: pointer;
+}
+
+/* footer Section */
+
 footer {
   text-align: center;
   background-color: #fff4e7;
@@ -233,7 +264,7 @@ footer {
   .main-section {
     flex-direction: column;
   }
-  .hero{
+  .hero {
     margin-top: 60px;
   }
   .hero h1 {
@@ -269,40 +300,62 @@ footer {
     bottom: -35px;
     left: 100px;
   }
-  .status{
+  .status {
     width: 100%;
-
   }
-  .facts{
+  .facts {
     flex-direction: column;
     gap: 20px;
-   
   }
-  .single-facts h1{
+  .single-facts h1 {
     margin-bottom: 0px;
   }
-  .sponser{
+  .sponser {
     margin-top: 0px;
   }
-  .sponser-logo{
+  .sponser-logo {
     flex-wrap: wrap;
     padding: 5px;
     justify-content: space-evenly;
     width: 95%;
     margin-top: 30px;
   }
-  .sponser-logo img{
+  .sponser-logo img {
     width: 100px;
-    
   }
-  .sponser p{
-   text-align: center;
-    
+  .sponser p {
+    text-align: center;
   }
-  .footer{
+  .subscribe-asset {
+    flex-direction: column;
+    width: 100%;
+  }
+  .subscribe-asset input{
+    border-radius: 2px;
+    width: 70%;
+    border: none;
+    margin-bottom: 10px;
+   
+  }
+  .subscribe-asset button{
+    border-right: none;
+    margin-left: 0px;
+    padding: 19px 11px;
+    width: 75%;
+   
+  }
+  .mail-subscribe{
+    width: 100%;
+    padding: 0px;
+  }
+  .mail-subscribe h1{
+    font-size: 30px;
+    padding-top: 45px;
+  }
+  .footer {
     padding: 17px;
   }
-  .footer p{
+  .footer p {
     text-align: center;
   }
 }
